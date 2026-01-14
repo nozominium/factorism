@@ -1,6 +1,7 @@
 package com.nozomin.factorism.datagen;
 
 import com.nozomin.factorism.Factorism;
+import com.nozomin.factorism.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 
@@ -15,5 +16,6 @@ public class ModLanguageProvider extends LanguageProvider {
         add("itemGroup.factorism", "Factorism");
         add(ModItems.SAMPLE_ITEM.get(), "Sample Item");
          */
+        add(ModItems.SAMPLE_ITEM.get(), "Sample Item");
     }
 }

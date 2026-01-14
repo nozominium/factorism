@@ -19,6 +19,8 @@ public class ModItems {
     public static final DeferredHolder<Item, Item> WRENCH = ITEMS.register("wrench",
             () -> new WrenchItem(new Item.Properties().durability(250)));
     */
+    public static final DeferredHolder<Item, Item> SAMPLE_ITEM = ITEMS.register("sample_item",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

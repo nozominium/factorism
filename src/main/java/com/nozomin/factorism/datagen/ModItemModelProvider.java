@@ -18,5 +18,15 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.SAMPLE_ITEM.get());
          */
         basicItem(ModItems.SAMPLE_ITEM.get());
+        basicItem(ModItems.COBALT_INGOT.get());
+        basicItem(ModItems.COBALT_NUGGET.get());
+        basicItem(ModItems.STEEL_INGOT.get());
+        basicItem(ModItems.STEEL_BOARD.get());
+        basicItem(ModItems.BASE_BOARD.get());
+        basicItem(ModItems.COPPER_CIRCUIT.get());
+        basicItem(ModItems.IRON_CIRCUIT.get());
+        basicItem(ModItems.GOLD_CIRCUIT.get());
+        basicItem(ModItems.DIAMOND_CIRCUIT.get());
+        basicItem(ModItems.NETHERITE_CIRCUIT.get());
     }
 }

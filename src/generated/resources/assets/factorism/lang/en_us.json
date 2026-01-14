@@ -1,3 +1,13 @@
 {
-  "item.factorism.sample_item": "Sample Item"
+  "item.factorism.base_board": "Base Board",
+  "item.factorism.cobalt_ingot": "Cobalt Ingot",
+  "item.factorism.cobalt_nugget": "Cobalt Nugget",
+  "item.factorism.copper_circuit": "Copper Circuit",
+  "item.factorism.diamond_circuit": "Diamond Circuit",
+  "item.factorism.gold_circuit": "Gold Circuit",
+  "item.factorism.iron_circuit": "Iron Circuit",
+  "item.factorism.netherite_circuit": "Netherite Circuit",
+  "item.factorism.sample_item": "Sample Item",
+  "item.factorism.steel_board": "Steel Board",
+  "item.factorism.steel_ingot": "Steel Ingot"
 }

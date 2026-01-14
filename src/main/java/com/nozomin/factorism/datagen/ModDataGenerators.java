@@ -20,5 +20,6 @@ public class ModDataGenerators {
         boolean includeClient = event.includeClient();
         boolean includeServer = event.includeServer();
         generator.addProvider(includeClient, new ModItemModelProvider(packOutput, existingFileHelper));
+        generator.addProvider(includeClient, new ModLanguageProvider(packOutput, "en_us"));
     }
 }

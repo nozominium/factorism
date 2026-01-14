@@ -1,6 +1,7 @@
 package com.nozomin.factorism.datagen;
 
 import com.nozomin.factorism.Factorism;
+import com.nozomin.factorism.item.ModItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -18,6 +19,6 @@ public class ModDataGenerators {
         var lookupProvider = event.getLookupProvider();
         boolean includeClient = event.includeClient();
         boolean includeServer = event.includeServer();
-        generator.addProvider(includeClient, new ModItem)
+        generator.addProvider(includeClient, new ModItemModelProvider(packOutput, existingFileHelper));
     }
 }

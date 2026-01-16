@@ -22,5 +22,6 @@ public class ModDataGenerators {
         generator.addProvider(includeClient, new ModItemModelProvider(packOutput, existingFileHelper));
         generator.addProvider(includeClient, new ModLanguageProvider(packOutput, "en_us"));
         generator.addProvider(includeServer, new ModRecipeProvider(packOutput, lookupProvider));
+        generator.addProvider(includeClient, new ModBlockStateProvider(packOutput, existingFileHelper));
     }
 }

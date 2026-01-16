@@ -1,6 +1,7 @@
 package com.nozomin.factorism.datagen;
 
 import com.nozomin.factorism.Factorism;
+import com.nozomin.factorism.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -14,7 +15,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels(){
         // EXAMPLE:
         /*
-        simpleBlockWithItem(ModBlocks.SAMPLE_BLOCK.get(), cubeAll(ModBlocks.SAMPLE_BLOCK.get());
+        simpleBlockWithItem(ModBlocks.SAMPLE_BLOCK.get(), cubeAll(ModBlocks.SAMPLE_BLOCK.get()));
          */
+
+        simpleBlockWithItem(ModBlocks.COBALT_BLOCK.get(), cubeAll(ModBlocks.COBALT_BLOCK.get()));
     }
 }

@@ -1,6 +1,7 @@
 package com.nozomin.factorism.datagen;
 
 import com.nozomin.factorism.Factorism;
+import com.nozomin.factorism.block.ModBlocks;
 import com.nozomin.factorism.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
@@ -15,7 +16,7 @@ public class ModLanguageProvider extends LanguageProvider {
         /*
         add("itemGroup.factorism", "Factorism");
         add(ModItems.SAMPLE_ITEM.get(), "Sample Item");
-        addBlock(ModBlocks.SAMPLE_BLOCK.get(), "Sample Block");
+        add(ModBlocks.SAMPLE_BLOCK.get(), "Sample Block");
          */
         add(ModItems.SAMPLE_ITEM.get(), "Sample Item");
         add(ModItems.COBALT_INGOT.get(), "Cobalt Ingot");
@@ -28,5 +29,7 @@ public class ModLanguageProvider extends LanguageProvider {
         add(ModItems.GOLD_CIRCUIT.get(), "Gold Circuit");
         add(ModItems.DIAMOND_CIRCUIT.get(), "Diamond Circuit");
         add(ModItems.NETHERITE_CIRCUIT.get(), "Netherite Circuit");
+        add(ModBlocks.COBALT_BLOCK.get(), "Cobalt Block");
+
     }
 }

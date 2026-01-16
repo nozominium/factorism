@@ -1,5 +1,6 @@
 package com.nozomin.factorism.datagen;
 
+import com.nozomin.factorism.block.ModBlocks;
 import com.nozomin.factorism.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -39,6 +40,14 @@ public class ModRecipeProvider extends RecipeProvider {
                 .pattern("*  ")
                 .pattern("#  ")
                 .unlockedBy("has_steel_board", has(ModItems.STEEL_BOARD.get()))
+                .save(output);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.COBALT_BLOCK.get())
+                .define('#', ModItems.COBALT_INGOT.get())
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .unlockedBy("has_cobalt_ingot", has(ModItems.COBALT_INGOT.get()))
                 .save(output);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_CIRCUIT.get())

@@ -1,5 +1,6 @@
 package com.nozomin.factorism;
 
+import com.nozomin.factorism.block.ModBlocks;
 import com.nozomin.factorism.item.ModItems;
 import org.slf4j.Logger;
 
@@ -78,6 +79,7 @@ public class Factorism {
         CREATIVE_MODE_TABS.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (Factorism) to respond directly to events.

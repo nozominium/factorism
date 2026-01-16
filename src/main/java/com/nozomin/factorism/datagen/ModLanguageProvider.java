@@ -15,6 +15,7 @@ public class ModLanguageProvider extends LanguageProvider {
         /*
         add("itemGroup.factorism", "Factorism");
         add(ModItems.SAMPLE_ITEM.get(), "Sample Item");
+        addBlock(ModBlocks.SAMPLE_BLOCK.get(), "Sample Block");
          */
         add(ModItems.SAMPLE_ITEM.get(), "Sample Item");
         add(ModItems.COBALT_INGOT.get(), "Cobalt Ingot");
